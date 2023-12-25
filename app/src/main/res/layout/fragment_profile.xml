@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:background="@drawable/header">
+
+            <ImageView
+                android:id="@+id/imageView_profile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                tools:src="@drawable/ic_profile_black" />
+
+            <TextView
+                android:id="@+id/profile_fullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_profile"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/osansmedium"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                style="@style/TextAppearance.AppCompat.Large" />
+
+        </RelativeLayout>
+
+
+       <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIK"
+                android:fontFamily="@font/osansmedium"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+            <TextView
+                android:id="@+id/profile_nik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/osansmedium"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:fontFamily="@font/osansmedium"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+            <TextView
+                android:id="@+id/profile_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="@font/osansmedium"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:padding="10dp"
+                android:fontFamily="@font/osansmedium"
+                android:layout_marginLeft="10dp"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+            <TextView
+                android:id="@+id/profile_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:fontFamily="@font/osansmedium"
+                android:layout_marginLeft="10dp"
+                style="@style/TextAppearance.AppCompat.Medium"/>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

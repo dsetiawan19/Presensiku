@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "745244218177",
+    "project_id": "presensiku-520ee",
+    "storage_bucket": "presensiku-520ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745244218177:android:666f8b676799246fc387c0",
+        "android_client_info": {
+          "package_name": "com.mekaar.presensiku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745244218177-v1j999jo5om6vdlnfghnklp3586dksm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCesohVvp-lOsMpdnXRboUdqpN4H2f3JAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745244218177-v1j999jo5om6vdlnfghnklp3586dksm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745244218177:android:3a98017fbf745422c387c0",
+        "android_client_info": {
+          "package_name": "com.mekaar.presensiku_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745244218177-1mv4qrvbdbp094pg29afqsotlo2j1a1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mekaar.presensiku_1",
+            "certificate_hash": "56af5b5b79ade5bee996b42536d011c2cf507b62"
+          }
+        },
+        {
+          "client_id": "745244218177-v1j999jo5om6vdlnfghnklp3586dksm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCesohVvp-lOsMpdnXRboUdqpN4H2f3JAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745244218177-v1j999jo5om6vdlnfghnklp3586dksm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

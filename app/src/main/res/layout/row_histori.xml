@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="2dp"
+    app:cardBackgroundColor="@color/white"
+    app:contentPadding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_ceklis"
+            android:src="@drawable/ic_checklis_presensi"
+            android:layout_width="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="70dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:text="Waktu Absen :"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/historiTanggal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="end"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:text="Waktu Presensi :"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/historiWaktu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:layout_marginBottom="3dp"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:text="Lokasi :"
+                        android:layout_weight="1"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/historiLocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="3dp"
+                        android:gravity="end"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

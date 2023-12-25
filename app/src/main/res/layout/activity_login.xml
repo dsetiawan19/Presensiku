@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/box_email"
+        android:layout_marginBottom="20dp">
+        <EditText
+            android:id="@+id/logn_email"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/box_password"
+        android:layout_below="@id/box_email"
+        app:passwordToggleEnabled="true"
+        android:layout_marginBottom="10dp">
+        <EditText
+            android:id="@+id/logn_password"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/not_have_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+    </com.google.android.gms.common.SignInButton>
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_password"
+        android:text="Login"
+        android:backgroundTint="#13446A"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/not_have_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun? register"
+        android:textAlignment="center"
+        android:layout_below="@+id/loginbtn"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>
